@@ -39,7 +39,7 @@ MasterChefHybrid is a smart contract that combines the functionalities of both M
     
 The contract is initialized with the following parameters:
 
-'''solidity
+```
 constructor(
     sushiToken _sushi,
     address _devaddr,
@@ -47,7 +47,7 @@ constructor(
     uint256 _startBlock,
     uint256 _bonusEndBlock
 )
-'''
+```
 * _sushi: Address of the SUSHI token contract.
 * _devaddr: Developer's address to receive a portion of the minted rewards.
 * _sushiPerBlock: The amount of SUSHI minted per block.
@@ -72,22 +72,22 @@ constructor(
 
 ## Installation
 **Clone the repository:**
-'''
+```
 $git clone https://github.com/vishwa7dcap786/MasterChefHybrid.git
-'''
+```
 
 **Install the necessary dependencies:**
 
-'''
+```
 $curl -L https://foundry.paradigm.xyz | bash
 $forge init
-'''
+```
 
 **Compile the contract:**
 
-'''
+```
 $forge compile
-'''
+```
 
 
 ## Contributing

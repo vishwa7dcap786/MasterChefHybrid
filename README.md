@@ -24,7 +24,9 @@ MasterChefHybrid is a smart contract that combines the functionalities of both M
 
 * UserInfo: Stores user-specific information like staked amount and reward debt.
 * PoolInfo: Contains pool-specific details like allocation points, reward information, and LP token address.
+
 **Key Events**
+
 * Deposit: Emitted when a user deposits LP tokens.
 * Withdraw: Emitted when a user withdraws LP tokens.
 * Harvest: Emitted when a user claims SUSHI rewards.

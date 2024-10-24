@@ -378,7 +378,7 @@ interface sushiToken is IERC20{
 
 /// @notice MasterChefHybrid has all the functionalities of MasterChefV2 and has the minting rights for SUSHI.
 /// This is the only address with minting rights for SUSHI.
-/// Behave more likely MasterChefV2.
+/// Behaves more likely MasterChefV2.
 contract MasterChefHybrid is BoringOwnable, BoringBatchable {
     using BoringMath for uint256;
     using BoringMath128 for uint128;
